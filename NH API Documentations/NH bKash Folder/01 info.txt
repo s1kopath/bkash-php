@@ -1,0 +1,11 @@
+Merchant name: Nagadhat Bangladesh Limited
+
+1. Merchant wallet number: 01765000009
+2. Display name: NAGADHAT
+3. Email: nagadhat@gmail.com
+4. Logo URL: https://nagadhat.com.bd/web-files/NagadhatBangladeshLimited.png
+
+
+
+
+BDT 15 TrxID: 9CV2UAUZO8

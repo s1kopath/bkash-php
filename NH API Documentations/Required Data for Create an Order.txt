@@ -1,0 +1,32 @@
+
+
+{
+	"sales_data": {
+	"user_id": 3126,
+	"outlet_id": 2,
+	"pos_sale_id": 122,
+    	"shipping_address": "142",
+    	"delivery_address": "143",
+    	"shipping_type": "inside_dhaka",
+    	"delivery_note": "delivery_note",
+	"total_product": "25",
+	"total_price": "35000",
+	"delivery_charge": "0",
+        "cart_products": [
+            {
+                "product_id": "2625",
+                "product_quantity": "10",
+                "product_unit_price": "3550",
+                "order_type": "Regular",
+                "product_variation_size": "0"
+            },
+            {
+                "product_id": "2624",
+                "product_quantity": "15",
+                "product_unit_price": "3050",
+                "order_type": "Regular",
+                "product_variation_size": "0"
+            }
+        ]
+    }
+}

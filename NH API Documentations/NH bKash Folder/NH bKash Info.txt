@@ -1,0 +1,62 @@
+nagadhat@gmail.com
+operations.nagadhat@gmail.com
+biplob.net2@gmail.com
+asaduzzaman.arob@gmail.com
+
+ps0190001.mollah@bkash.com
+
+
+Link: https://developer.bka.sh/docs/checkout-process-overview
+
+*** Before calling any bKash API, please make sure you have valid authorization tokens.
+
+	01. Before accessing any bKash payment APIs, call the Grant Token API to get authorization token. By default, the token lifetime is 3600 seconds.
+	02. Use this token value in the "Authorization" header for accessing future API calls.
+	03. Before the end of the current token lifetime (at the 50th/55th minute), call the Refresh Token API or the Grant Token API again to get a new token against your existing token. 
+            You will have to use the new token for subsequent other API calls.
+
+------------------------------------------------ Getting 'Grant Token' and 'refresh_token' ----------------------------------------------------------------------------------------------------------------------------------
+
+Grant Token API provides an access token as a response. This token can be used to access other bKash APIs as authorization parameter. Once the token gets expired, new token can be generated through Refresh Token API.
+
+Request URL: {base_URL}/checkout/token/grant
+**base_URL will be shared during onboarding.
+Help link: https://developer.bka.sh/docs/grant-token
+
+API Title : Grant Token
+API URL : https://checkout.sandbox.bka.sh/v1.2.0-beta/checkout/token/grant
+
+Request Headers:
+Content-Type: "application/json"
+Accept: "application/json"
+username: Username associated with the merchant account which was shared by bKash during on-boarding.
+password: Password associated with the merchant account.
+
+Request Parameters:
+app_key: Application Key value shared by bKash during on-boarding.
+app_secret: Application Secret value shared by bKash during on-boarding.
+
+
+Checkout Formal Sandbox Credential -
+
+"app_key": "5nej5keguopj928ekcj3dne8p",
+"app_secret": "1honf6u1c56mqcivtc9ffl960slp4v2756jle5925nbooa46ch62",
+"username": "testdemo",
+"password": "test%#de23@msdao"
+
+
+"body": {
+      "app_key":"5tunt4masn6pv2hnvte1sb5n3j",
+      "app_secret":"1vggbqd4hqk9g96o9rrrp2jftvek578v7d2bnerim12a87dbrrka"
+  },
+  "headers": {
+      "username":"sandboxTestUser",
+      "password":"hWD@8vtzw0"
+  }
+
+a.       Wallet number- 01770618575
+b.       Pin-12121
+c.       OTP-123456
+
+
+------------------------------------------------ End of Getting 'Grant Token' and 'refresh_token' ----------------------------------------------------------------------------------------------------------------------------------
